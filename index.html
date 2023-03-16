@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>OscarFlix</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="page-title">
+			Oscar 2023
+		</h1>
+		<div class="MelhorFilme">
+			<h3>Melhor Filme</h3>
+			<ul id="ulMelhorFilme"></ul>
+			<h3>Melhor Animação</h3>
+			<ul id="ulMelhorAnimação"></ul>
+			<h3>Meus Favoritos do Oscar 2023</h3>
+			<ul id="ulFilmes"></ul>
+		</div>
+	</div>
+
+	<div id="divAddFilme">
+		<input type="text" id="nome" placeholder="Nome">
+		<input type="text" id="imagem" placeholder="Imagem"><br>
+		<input type="text" id="url" placeholder="Url">
+		<select id="opcoesCategoria">
+			<option value="ulMelhorFilme">Melhor Filme</option>
+			<option value="ulMelhorAnimação">Melhor Animação</option>
+			<option value="ulFilmes">Filmes Favoritos</option>
+		</select><br>
+		<button type="submit" id="btnAdicionar" onclick="adicionar()">Adicionar</button>
+	</div>
+	<footer><img src="" class="page-logo" alt=""></footer>
+</body>
+<script src="script.js"> </script>
+</html>
