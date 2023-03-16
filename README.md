@@ -1,5 +1,5 @@
 # **OscarFlix**
-Este projeto tem como objetivo mostrar os filmes indicados ao **Oscar 2023*. Com ele, é possível ver e **adicionar novos filmes**. <br> <br>
+Este projeto tem como objetivo mostrar os filmes indicados ao *Oscar 2023*. Com ele, é possível ver e **adicionar novos filmes**. <br> <br>
 
 <p align="center">
   <a href="https://codepen.io/LGomess/full/xxJJNdV">
